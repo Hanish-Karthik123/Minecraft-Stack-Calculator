@@ -1,3 +1,7 @@
+print("Welcome to the Minecraft Stack Calculator!")
+
+print("This can work with items in Java and bedrock editions of the game")
+
 # Item Stack Calculator for Minecraft
 items = int(input("Enter the amount of items you will need: "))
 
@@ -14,3 +18,5 @@ item_name = str(input("Enter the name of the item: "))
 
 #Output the results
 print(f"\nYou need: {stacks} stacks and {remainder} leftover {item_name}(s).")
+
+print("You can now exit the application by pressing any key")
